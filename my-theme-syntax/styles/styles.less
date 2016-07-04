@@ -3,26 +3,30 @@
 @import "syntax-variables";
 
 // .ini
-atom-text-editor::shadow .entity.name.section.group-title.ini {
-    color: @green;
-}
+atom-text-editor::shadow .entity.name.section.group-title.ini {color: @green;}
+atom-text-editor::shadow .keyword.other.definition.ini {color: cyan;}
+atom-text-editor::shadow .keyword.control.repeat.python {color: yellow;}
+atom-text-editor::shadow .storage.type.function.python { color: yellow;}
+atom-text-editor::shadow .keyword.control.conditional.python { color: yellow;}
 
-atom-text-editor::shadow .keyword.other.definition.ini {
-    color: cyan;
-}
+atom-text-editor::shadow .source.embedded.shell {color: #00FF00;}
+atom-text-editor::shadow .punctuation.definition.variable.shell {/*	color: #00FF00;*/}
+atom-text-editor::shadow .variable.other.normal.shell {color: #FFFF00;}
+atom-text-editor::shadow .variable.other {color: #FFFF00;}
 
-atom-text-editor::shadow .keyword.control.repeat.python {
-    color: yellow;
+atom-text-editor::shadow .keyword.control.shell { color: #FFFFFF;}
+atom-text-editor::shadow .entity.name.function.shell {color: #FFFFFF;}
+atom-text-editor::shadow .comment {color: #CCCCCC;}
+atom-text-editor::shadow .entity.name.tag {
+    color: #FFFF00;
+    text-decoration: none;
 }
+atom-text-editor::shadow .entity.other {color: #00FF00;}
+atom-text-editor::shadow .keyword.control.import.python {color: #00FFFF;}
+atom-text-editor::shadow .keyword.other.python {color: #00FFFF;}
+atom-text-editor::shadow .keyword.operator.logical.python {color: #FFFF00;}
+atom-text-editor::shadow .support.function.builtin.shell {color: #00FFFF;}
+atom-text-editor::shadow .constant.language.python {color: #FFFF00;}
+atom-text-editor::shadow .keyword.control.statement.python {color: #00FFFF;}
 
-atom-text-editor::shadow .storage.type.function.python {
-    color: yellow;
-}
-
-atom-text-editor::shadow .keyword.control.conditional.python {
-    color: yellow;
-}
-
-atom-text-editor::shadow .source.embedded.shell {
-	color: #00FF00;
-}
+atom-text-editor::shadow .invisible-character { color: turquoise }
