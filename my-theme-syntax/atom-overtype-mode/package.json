@@ -1,0 +1,37 @@
+{
+  "name": "atom-overtype-mode",
+  "main": "./lib/atom-overtype-mode",
+  "version": "0.3.2",
+  "description": "Provides overtype mode for Atom",
+  "activationCommands": {
+    "atom-text-editor": "overtype-mode:toggle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunetton/atom-overtype-mode.git"
+  },
+  "license": "MIT",
+  "readme": "# Overtype mode for Atom\n\nSwitch beetween insert and overtype mode by using `Ins` key.\nThe cursor turns into a rectangle to indicate that overtype is enabled.\n\n![](http://i.imgur.com/DejekQN.gif)\n\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/brunetton/atom-overtype-mode/issues"
+  },
+  "homepage": "https://github.com/brunetton/atom-overtype-mode#readme",
+  "_id": "atom-overtype-mode@0.3.2",
+  "_shasum": "5bcef927480ba4e6652ae0804e51a36b13c739c7",
+  "_resolved": "file:../d-116612-10261-1dfd1iq/package.tgz",
+  "_from": "../d-116612-10261-1dfd1iq/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/atom-overtype-mode.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

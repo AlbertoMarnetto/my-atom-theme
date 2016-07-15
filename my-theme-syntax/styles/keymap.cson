@@ -18,9 +18,9 @@
     'ctrl-f': 'find-and-replace:show'
     'ctrl-alt-f': 'find-and-replace:show-replace'
     'f3': 'find-and-replace:find-next-selected'
-#'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-    # 'ctrl-d': 'unset!'
-    # 'ctrl-d': 'editor:duplicate-lines'
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+    'ctrl-d': 'unset!'
+    'ctrl-d': 'editor:duplicate-lines'
     # 'shift-delete': 'unset!'
     # 'shift-delete': 'editor:delete-line'
 #    'ctrl-shift-t': 'unset!'
