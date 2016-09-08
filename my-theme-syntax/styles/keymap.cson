@@ -2,6 +2,7 @@
 # contexts: ctrl+shift+p
 
 'body':
+    'ctrl-q': 'unset!'
     'ctrl-d': 'unset!'
     'ctrl-d': 'editor:duplicate-lines'
     'shift-delete': 'unset!'
@@ -13,6 +14,7 @@
     # 'ctrl-d': 'editor:duplicate-lines'
     # 'shift-delete': 'unset!'
     # 'shift-delete': 'editor:delete-line'
+    'ctrl-q': 'unset!'
     'ctrl-t': 'unset!'
     'ctrl-F': 'project-find:show'
     'ctrl-f': 'find-and-replace:show'
@@ -21,6 +23,7 @@
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
     'ctrl-d': 'unset!'
     'ctrl-d': 'editor:duplicate-lines'
+    'ctrl-q': 'unset!'
     # 'shift-delete': 'unset!'
     # 'shift-delete': 'editor:delete-line'
 #    'ctrl-shift-t': 'unset!'
